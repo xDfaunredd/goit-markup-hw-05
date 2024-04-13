@@ -484,10 +484,29 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-div">
+          <p class="footer-form-title">Subscribe</p>
+          <form action="">
+            <label for=""></label>
+            <div>
+              <input
+                type="email"
+                class="footer-form-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-form-submit">
+                Subscribe
+                <svg class="footer-form-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <form action="" class="modal-form">
           <div class="modal-container">
@@ -527,11 +546,10 @@
               </svg>
             </div>
 
-            <label for="" class="modal-label">Comment </label>
+            <label for="modal-textarea" class="modal-label">Comment </label>
             <textarea
               name=""
-              id=""
-              ows="10"
+              id="modal-textarea"
               class="modal-textarea"
               placeholder="Text input"
             >
@@ -541,10 +559,16 @@
               type="checkbox"
               name=""
               id="input-checkbox"
-              class="modal-checkbox"
+              class="modal-checkbox visually-hidden"
             />
             <label class="modal-text" for="input-checkbox">
-              I accept the terms and conditions of the Privacy Policy
+              <span>
+                <svg class="modal-icon-property" width="16" height="16">
+                  <use href="./images/icons.svg#icon-property"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-link">Privacy Policy</a>
             </label>
 
             <button type="submit" class="modal-submit-btn">Send</button>
