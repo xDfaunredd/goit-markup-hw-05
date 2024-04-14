@@ -796,6 +796,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   fill: transparent;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
