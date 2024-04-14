@@ -484,34 +484,35 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-form-div">
           <p class="footer-form-title">Subscribe</p>
-          <form action="">
-            <label for=""></label>
-            <div>
+          <form action="user-form" class="footer-form">
+            <label class="footer-label">
               <input
                 type="email"
                 class="footer-form-input"
                 placeholder="E-mail"
                 name="user-form-email"
               />
-              <button type="submit" class="footer-form-submit">
-                Subscribe
-                <svg class="footer-form-icon" width="24" height="20">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </div>
+            </label>
+
+            <button type="submit" class="footer-form-submit">
+              Subscribe
+              <svg class="footer-form-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
-        <form action="" class="modal-form">
+        <form action="modal-form" class="modal-form">
           <div class="modal-container">
-            <button class="modal-close">
+            <button class="modal-close" type="button">
               <svg class="modal-icon-close" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
@@ -567,7 +568,7 @@
 
             <label for="modal-textarea" class="modal-label">Comment </label>
             <textarea
-              name=""
+              name="user-textarea"
               id="modal-textarea"
               class="modal-textarea"
               placeholder="Text input"
