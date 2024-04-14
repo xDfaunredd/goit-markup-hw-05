@@ -771,10 +771,6 @@ img {
   margin-right: 8px;
 }
 
-.modal-span-icon {
-  display: inline-flex;
-}
-
 .modal-checkbox:checked + .modal-text .modal-span-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
@@ -796,7 +792,7 @@ img {
   align-items: center;
 }
 
-.modal-text span {
+.modal-span-icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
